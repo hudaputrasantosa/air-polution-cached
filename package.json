@@ -1,0 +1,41 @@
+{
+    "name": "caching-with-redis",
+    "version": "1.0.0",
+    "description": "Air Polution API",
+    "main": "app.ts",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "node dist/index.js",
+        "dev": "nodemon --exec ts-node src/app.ts",
+    },
+    "keywords": ["Air Polution","Cache","Schedule Job"],
+    "author": "Huda Putra Santosa",
+    "license": "ISC",
+    "dependencies": {
+        "@fast-csv/format": "^5.0.0",
+        "@fast-csv/parse": "^5.0.0",
+        "axios": "^1.6.8",
+        "body-parser": "^1.20.3",
+        "cron": "^3.2.1",
+        "express": "^4.19.2",
+        "fast-csv": "^5.0.1",
+        "ioredis": "^5.4.1",
+        "json2csv": "^6.0.0-alpha.2",
+        "redis": "^4.6.14"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.15.0",
+        "@types/body-parser": "^1.19.5",
+        "@types/express": "^5.0.0",
+        "@types/ioredis": "^4.28.10",
+        "@types/node": "^22.9.0",
+        "@types/redis": "^4.0.10",
+        "concurrently": "^9.1.0",
+        "dotenv": "^16.4.5",
+        "eslint": "^9.15.0",
+        "globals": "^15.12.0",
+        "nodemon": "^3.1.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3"
+    }
+}
